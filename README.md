@@ -1,5 +1,7 @@
 # visual-plagiarism-recognization
 __北航2017-2018第一学期MatLab大作业。尝试针对图片修改（“盗图”）进行识别、评估与溯源。更多细节请参考[项目slides](http://slides.com/pzoom/matlab/fullscreen)__
+=======
+
 
 ## 直方图算法
 > 直方图：图像中颜色分布的图形表示
@@ -14,7 +16,7 @@ __北航2017-2018第一学期MatLab大作业。尝试针对图片修改（“盗
 
 ### RGB直方图
 #### 适用情境
-+ 针对色阶向量对称进行了优化
++ 针对RGB向量对换进行了优化
 
 ## MSE/PSNR算法
 > 峰值信噪比：表示信号最大可能功率和影响它的表示精度的破坏性雜訊功率的比值
@@ -37,12 +39,17 @@ __北航2017-2018第一学期MatLab大作业。尝试针对图片修改（“盗
 #### 适用情境
 + 对“盗绿”现象有着较好的效果
 
-## SSIM(改进)
-> 改进简述
-#### 改进方法
-#### 改进效果
+## SSIM(边缘)
+> 针对性的增加了边缘检测
+#### 适用情境
++ 在对比度偏移、色相变换等方面均显著提升经典方法性能
 
 ## 未来方向
 + 不同风格、相似图源的判定
 + 相同元素的不同组合方式的判定
 
+_**work cited:**</br>
+Z. Wang, A. C. Bovik, H. R. Sheikh, and E. P. Simoncelli,
+“Image quality assessment: From error visibility to structural
+similarity,” IEEE Trans. Image Processing, vol. 13, pp. 600–
+612, Apr. 2004._
