@@ -1,6 +1,7 @@
 # visual-plagiarism-recognization
+
 __北航2017-2018第一学期MatLab大作业。尝试针对图片修改（“盗图”）进行识别、评估与溯源。更多细节请参考[项目slides](http://slides.com/pzoom/matlab/fullscreen)__
-=======
+
 
 
 ## 直方图算法
